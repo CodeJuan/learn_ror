@@ -1,0 +1,15 @@
+<%= form_for :ip, url: ips_path do |f| %>
+  <p>
+    <%= f.label :staff %><br>
+    <%= f.text_field :staff %>
+  </p>
+ 
+  <p>
+    <%= f.label :ip %><br>
+    <%= f.text_area :ip %>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
