@@ -3,5 +3,6 @@ class IpsController < ApplicationController
   end
   
   def create
+    render plain: params[:ip].inspect
   end
 end
